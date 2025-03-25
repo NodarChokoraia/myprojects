@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my site part 2</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header>
+    
+
+    <div class="nodiko">
+        
+       <a href="index1.html"> <h1>nodikos site</h1></a>
+        <li><a href="index1 copy 2.html" class="dropmeniu" id="pc">PC <img src="devices_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" class="pc"></a></li>   
+        <li><a href="index1 copy 5.html" class="dropmeniu" id="tv">TV <img src="tv_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" class="tv"></a></li>
+        <li><a href="index1 copy 3.html" class="dropmeniu" id="phone">Phone <img src="phone_iphone_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" class="phone"></a></li>
+        <li><a href="index1 copy 4.html" class="dropmeniu" id="laptop">Laptop <img src="laptop_mac_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" class="laptop"></a></li>
+    </div>
+
+    <nav>
+        <div>
+    <li class="nodiko0"><a href="index.html" ><span >Home</span> <img src="home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 (1).png" alt="" class="img1"></a></li>
+        </div>
+        <div>
+    <li><a href="">Rate Us</a></li>
+    </div>
+    <div>
+
+    <li><a href="">Concact Us</a></li>
+    </div>
+    <div>
+
+    <li><a href="">Aboute Us</a></li>
+    
+    </div>
+    <form>
+        <button class="button">Search</button>
+        <input type="search" name="" id="" class="search">
+        
+
+
+    </form>
+    
+    </nav>
+    
+        <div class="cart">
+            <h1>cart</h1>
+        <div class="div1">
+            <div class="num1">
+            <li>total price: <span id="total">0</span><span>$</span></li>
+        </div>
+        <div>
+            <li><p id="lp1"></p></li>
+        </div>
+        <div>
+            <li><p id="ph1"></p></li>
+        </div>
+        <div>
+            <li><p id="pcc1"></p></li>
+        </div>
+        <div>
+            <li><p id="tvv1"></p></li>
+        </div>
+        <div class="num2">
+            <button id="buy">Buy</button>
+            <button id="but2" >Clear all</button>
+        </div>
+        </div>
+
+        
+    </div>
+       
+</header>
+
+
+
+<main>
+    <div class="lp1">
+        <p>Price:499$</p>
+    <img src="https://alta.ge/images/thumbnails/55/55/detailed/316/148557-1.png.jpg" alt="">
+    <p class="model">ViewSonic 32''<br> Curved VX3219-PC-MHD</p>
+    
+
+    <button id="pc1">add co cart</button>
+        </div>
+    
+        
+    
+</main>
+
+
+<script>
+
+let cost = 0;
+cost= Number();
+let total = document.getElementById('total');
+
+let pc1 = document.getElementById('pc1');
+let pcc1 = document.getElementById('pcc1');
+
+
+let id = document.getElementById('but2');
+let buy = document.getElementById('buy');
+
+pc1.onclick=function(){
+    
+    cost = cost+499;
+    total.textContent = cost; 
+    pcc1.textContent = 'third item:ViewSonic 32';
+
+
+
+};
+
+
+
+but2.onclick=function(){
+    cost = 0;
+    
+    total.textContent = 0; 
+    lp1.textContent = ' ';
+
+    tvv1.textContent = ' ';
+pcc1.textContent = ' ';
+ph1.textContent = '  ';
+
+};
+buy.onclick=function(){
+    window.alert(cost);
+    window.alert('you order will be deliverd soon');
+    cost = 0;
+    
+    total.textContent = 0; 
+    lp1.textContent = ' ';
+
+    tvv1.textContent = ' ';
+pcc1.textContent = ' ';
+ph1.textContent = '  ';
+    
+    
+    
+
+};
+
+</script>
+
+
+    
+</body>
+</html>

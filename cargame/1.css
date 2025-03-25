@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: url(images/img2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.car{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    bottom: 100px;
+    left: -100%;
+    animation-duration: 5s;
+    animation-name: go;
+    
+    animation-timing-function:ease-in-out;
+    animation-play-state:paused;
+    animation-iteration-count: infinite;
+}
+
+@keyframes go{
+    from{left: 70%;}
+    
+}
+
+@keyframes spin{
+    from{transform: rotate(360deg)}
+    to{transform: rotate(0deg);}
+}
+
+
+.div1{
+    background-color: #6f6e73;
+    border-radius: 50%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid 5px black;
+    z-index: 100;
+    right: 180px;
+    top: 80px;
+    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    width: 80px;
+    height: 80px;
+}
+.div1::after{
+    content: '';
+    position: absolute;
+    width:25px;
+    height: 25px;
+    background-color: rgb(68, 68, 68);
+    left: 28px;
+    top: 28px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+    
+
+}
+.divs1{
+    background-color: #8e8e8e;
+    position: relative;   
+    width: 10px;
+    left: 10px;
+    height: 90px;
+    transform: rotate(90deg);
+    
+    
+}
+.divs2{
+    background-color: #8e8e8e;
+    position: relative;   
+    width: 10px;
+    transform: rotate(35deg);
+    height: 90px;
+    
+}
+.divs3{
+    background-color: #8e8e8e;
+    position: relative;   
+    width: 10px;
+    height: 90px;
+    right: 10px;
+    transform: rotate(145deg);
+}
+.div2{
+    background-color: #6f6e73;
+    border-radius: 50%;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: solid 5px black;
+    left: 250px;
+    z-index: 100;
+    bottom: 10px;
+    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    width: 80px;
+    height: 80px;
+}
+.div2::after{
+    content: '';
+    position: absolute;
+    width:25px;
+    height: 25px;
+    background-color: rgb(68, 68, 68);
+    left: 28px;
+    top: 28px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 50%;
+}
+.divs4{
+    background-color: #8e8e8e;
+    position: relative;   
+    width: 10px;
+    left: 10px;
+    height: 90px;
+    transform: rotate(90deg);
+    
+    
+}
+.divs5{
+    background-color: #8e8e8e;
+    position: relative;   
+    width: 10px;
+    transform: rotate(35deg);
+    height: 90px;
+    
+}
+.divs6{
+    background-color: #8e8e8e;
+    position: relative;   
+    width: 10px;
+    height: 90px;
+    right: 10px;
+    transform: rotate(145deg);
+}
+.div3{
+    background-color: #d1292b;
+    width: 580px;
+    position: relative;
+    right: 230px;
+    
+    border-bottom: 20px solid #841f20;
+    border-top-left-radius: 50px;
+    bottom: 150px;
+    
+    height: 80px;
+    
+}
+.div3::after{
+    content: '';
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    background-color:#aaa9a9 ;
+    left: 10px;
+    transform: rotate(45deg);
+    border-radius: 40%;
+    border-right:solid 1px black ;
+    border-top:solid 1px black ;
+    bottom: 35%;
+    /* #fdf280  yellow*/
+}
+
+.divs7{
+    background-color: #d1292b;
+    width: 350px;
+    position: relative;
+    bottom: 99px;
+    height: 100px;
+    left:39.6%;
+
+    border-top-left-radius:10px;
+    border-top-right-radius:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+    
+    
+}
+.divs7::after{
+    content: '';
+    position: absolute;
+    background-color: #323232;
+    width: 100px;
+    height: 150px;
+    right: 310px;
+    transform: rotate(45deg);
+    z-index: -4;
+    top: 14px;
+    
+
+}
+
+.divs7 div{
+    width: 140px;
+    height: 90px;
+    background-color: #323232;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.divs8{
+    width: 30px;
+    height: 15px;
+    background-color: #801817;
+    position: relative;
+    bottom: 110px;
+    border-radius: 2px;
+    left: 248px;
+}
+.road{
+    background-color: #424b51;
+    border-top: 10px solid #acb5bc;
+    border-bottom: 10px solid #acb5bc;
+    width: 100%;
+    position: relative;
+    
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80px;
+}
+
+.road div{
+    width: 100%;
+    border: 5px white dashed;
+    height: 0;
+
+}
+
+html body .controlpanel{
+    position: relative;
+    background-color: #444444;
+    display: flex;
+    height: 270px;
+    
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.forward,.forward img{
+    width: 100px;
+    height:200px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+    
+}
+
+.stop,.stop img{
+    width: 200px;
+    height:100px;
+    mix-blend-mode: multiply;
+    cursor: pointer;
+    
+    
+}
+.start{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    inset -6px -6px 10px -1px  rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+    font-size:30px;
+    background-color:#d1292b;
+    color: white;
+}
+.start:active{
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    inset -6px -6px 10px -1px  rgba(0, 0, 0, 0.07);
+}
+
+i{
+    width: 100px;
+    height: 40px;
+}

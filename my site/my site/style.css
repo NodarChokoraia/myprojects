@@ -1,0 +1,155 @@
+img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+
+.logo{
+position: relative;
+top:10px;
+
+
+font-family: Arial;
+
+
+}
+
+body{
+background-color: rgba(0, 0, 0, 0.041);
+
+
+
+}
+
+
+
+.from{
+text-shadow: 0 0 5em;
+position: relative;
+border-style: inset;
+border-radius: 5px;
+width: 300px;
+height: 300px;
+top: 70px;
+float: right;
+right: 100px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+main input{
+border-left:none  ;
+border-right:none   ;
+border-top: none ;
+border-bottom-color:hsl(0, 0%, 0%) ;
+width: 250px;
+
+position: relative;
+left: 20px;
+top:25px;
+height: 50px;
+
+background-color: transparent;
+
+
+}
+
+
+
+.nodiko{
+margin-bottom: 25px;
+
+
+
+
+}
+
+.nodiko2{
+margin: 0;
+position: relative;
+left: 60px;
+color: rgb(17, 9, 9);
+font-family: Arial;
+top: 10px;
+}
+
+
+
+
+
+main button{
+position: relative;
+top: 60px;
+left:21px ;
+width: 250px;
+height:50px;
+font-size: 25px;
+
+color: white;
+background-color: black;
+border: solid;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+main button:hover{
+background-color: blue;
+color: white;
+transition: 2s ease-in-out;
+
+
+
+
+
+
+}
+
+
+
+
+
+.nodiko3{
+position: relative;
+top: 100px;
+margin: 0;
+width: 500px;
+font-size: 50px;
+color: blue;
+font-family: Arial;
+
+
+}
+
+
+
+
+main p{
+position: relative;
+top:80px;
+font-size: 25px;
+width: 500px;
+
+
+
+
+
+}

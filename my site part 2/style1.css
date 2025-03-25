@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.nodiko{
+    cursor: pointer;
+    overflow:hidden ;
+    float: left;
+    list-style: none;
+    border: solid 1px;
+    width: 250px;
+    height: 40px;
+    background-color: hsla(0, 0%, 0%, 0.281); 
+    border-color: hsla(0, 0%, 0%, 0.315);
+    position: relative;
+    font-family: Arial;
+    }
+
+
+
+
+.nodiko a{
+   align-items: center;
+   text-decoration: none;
+   display: flex;
+   align-content: center;
+   color: black;
+   font-size: 20px;
+}
+
+
+nav div{
+    list-style: none;
+    font-size: 25px;
+    float: left;
+    text-align: center;
+    
+    border: solid 1px;
+    width: 150px;
+    height: 40px;
+    background-color: hsl(0, 0%, 100%); 
+    border-color: hsla(0, 0%, 0%, 0.315);
+}
+
+
+nav a{
+    text-decoration: none;
+    font-family: Arial;
+    color:black ;
+    
+
+}
+
+nav li{
+    padding-top:5px ;
+}
+
+
+
+
+.dropmeniu{
+    list-style: none;
+    border: solid 1px;
+    width: 240px;
+    height: 50px;
+    background-color: hsla(0, 0%, 0%, 0.521); 
+    border-color: hsla(0, 0%, 0%, 0.315);
+    display: block;
+    position: relative;
+    bottom:5px ;
+    right: 3px;
+    
+}
+
+.nodiko:hover{
+    overflow:visible;
+    border: solid 3px;
+    transition:  ease-in-out;
+    width: 246px;
+}
+
+.dropmeniu:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 3px;
+    border-color: hsla(0, 0%, 0%, 0.315);
+
+}
+
+
+.img1{
+    width: 50px;
+    position: relative;
+    bottom: 39px;
+    right:50px ;
+    mix-blend-mode: multiply;
+    
+}
+.nodiko0{
+    width: 1px;
+    height: 30px;
+    position: relative;
+    left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nodiko img{
+    width: 30px;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+.search{
+    width: 300px;
+    border-radius: 0 5px 5px 0;
+    height: 40px;
+    border-left: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 20px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+
+
+.button{
+    height: 40px;
+    float: left;
+    
+    width: 70px;
+    border-radius: 5px 0 0 5px;
+    margin-left: 10px;
+    background-color: hsl(263, 100%, 34%) ;
+    border: solid  hsl(263, 100%, 34%);
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+.cart{
+    border: solid 1.5px  hsla(0, 0%, 0%, 0.315);
+    width: 100px;
+    height: 40px;
+    font-size:20px ;
+    position: relative;
+    left: 385px;
+    bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+overflow: hidden;
+}
+
+.div1{
+   position: relative;
+   right: 300px;
+}
+.div1 div{
+    width: 300px;
+    height:50px;
+    position: relative;
+    top:172px;
+    left:30px;
+    list-style: none;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    text-align: start;
+    background-color: hsl(0, 0%, 100%); 
+    border-color: hsl(0, 0%, 0%);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.num1{
+    border-top: solid 1px;
+}
+.num2{
+    border-bottom: solid 1px;
+}
+
+.div1 button{
+position: relative;
+left:50px ;
+width: 100px;
+height: 40px;
+font-size: 25px;
+cursor: pointer;
+border: solid 1px;
+border-radius: 10px ;
+
+background-color: hsl(263, 100%, 34%) ;
+    border: solid  hsl(263, 100%, 34%);
+
+}
+
+
+
+.cart:hover{
+    overflow: visible;
+}
+
+
+.lp1{
+    border: solid 1px;
+    width: 500px;
+}
+.lp1 img{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.model{
+    position: relative;
+    left: 280px;
+    bottom: 70px;
+
+}
+.lp1 button{
+    position: relative;
+    left: 300px;
+    height: 30px;
+    width: 150px;
+    bottom: 40px;
+    border-radius: 10px;
+    background-color: hsl(120, 100%, 43%);
+    border-color: hsl(120, 100%, 43%);
+    border-style: none;
+    cursor: pointer;
+
+}
+
+.bu2{
+    width: 40px;
+}

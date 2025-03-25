@@ -1,0 +1,34 @@
+.nodiko3{
+position: relative;
+font-size: 100px;
+left: 49.5%;
+
+
+
+
+}
+
+
+
+
+div button{
+width: 100px;
+height: 50px;
+background-color: blue;
+border-radius: 10px;
+border-style: solid hsl(240, 91%, 69%);
+position: relative;
+left: 47.5%;
+cursor: pointer;
+
+}
+
+
+
+div button:hover{
+background-color: hsl(219, 84%, 59%);
+transition: 1.5s ease-in-out;
+
+}
+
+
