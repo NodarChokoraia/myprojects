@@ -1,38 +1,22 @@
+let signupName = document.getElementById('signupname').value;
+let loginName = document.getElementById('loginupname').value;
+let signupPassword = document.getElementById('signuppassword').value;
+let loginPassword = document.getElementById('loginpassword').value;
 
-let input = document.getElementById('input');
-let inputvalue = input.value;
-let button = document.getElementById('button');
+let signupbutton =document.getElementById('signupbut');
 
-button.onclick = function(){
-    localStorage.setItem('name',input.value,'nodiko',inputvalue);
-    localStorage.removeItem('name');
-    
-    console.log(localStorage.getItem('name'));
-}
+let loginbutton = document.getElementById('loginbut');
 
-/*button.onclick = function(){
-    localStorage.setItem('name',input.value);
-    if(input.value==''){
-        console.log('enter sommothing ');
-        
-    }else if(input.value!=''){
-        
-        console.log(localStorage.getItem('name'));
-        
+localStorage.setItem('Sname', signupName);
+localStorage.setItem('Lname', loginName);
+localStorage.setItem('Spassword', signupPassword);
+localStorage.setItem('Lpassword', loginPassword);
+setInterval(function(){
+    localStorage.getItem('Sname')
+},1000)
+console.log(localStorage.getItem('Sname'));
 
-    }
-}*/
-x=[2,3,'4','2'];
-x[2]=Number(x[2]);
-console.log(x);
-
-x=Number()
-
-
-let res=Number();
-  for(let i = 0;i<x.length;i++){
-    
-    res+=x[i]
-  }
-  console.log(res);
-  
+signupbutton.onclick = function(){
+    localStorage.getItem('Sname')
+    localStorage.getItem('Spassword')
+};

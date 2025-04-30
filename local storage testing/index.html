@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+        body{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            border: solid 2px;
+            border-radius: 20px;
+        }
+        button{
+            width: 150px;
+        }
+        input{
+            padding-left: 5px;
+            height: 20px;
+        }
+    </style>
 </head>
 <body>
-<input type="text" id="input">
-<button id="button">click</button>
+    <div class="signup">
+        <h1>Sign up</h1>
+        <input type="text" placeholder="name" id="signupname">
+        <input type="text" placeholder="password" id="signuppassword">
+        <button id="signupbut">sign up</button>
+    </div>
+
+    <div class="loginup">
+        <h1>login up</h1>
+        <input type="text" placeholder="name" id="loginupname">
+        <input type="text" placeholder="password" id="loginppassword">
+        <button id="loginbut">login up</button>
+    </div>
 
 
 
